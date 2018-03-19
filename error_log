@@ -1,0 +1,2234 @@
+[14-Mar-2018 21:12:19 America/Chicago] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 72 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/RuleSetGenerator.php on line 126
+[14-Mar-2018 21:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[14-Mar-2018 22:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[14-Mar-2018 22:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[14-Mar-2018 22:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[14-Mar-2018 22:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[14-Mar-2018 23:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[14-Mar-2018 23:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[14-Mar-2018 23:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[14-Mar-2018 23:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 00:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 00:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 00:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 00:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 01:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 01:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 01:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 01:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 02:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 02:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 02:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not connect to the database. Please refer to suitecrm.log for details (0).' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/cron.php(45): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 02:45:29 America/Chicago] PHP Fatal error:  Uncaught Exception: Could not connect to the database. Please refer to suitecrm.log for details (0). in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/database/MysqliManager.php(310): sugar_die('Could not conne...')
+#1 /home3/m3w0hhnr/public_html/include/database/DBManagerFactory.php(147): MysqliManager->connect(Array, true)
+#2 /home3/m3w0hhnr/public_html/include/entryPoint.php(188): DBManagerFactory::getInstance()
+#3 /home3/m3w0hhnr/public_html/index.php(47): require_once('/home3/m3w0hhnr...')
+#4 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 02:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 03:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 03:08:44 America/Chicago] PHP Warning:  move_uploaded_file(custom/custom/themes/default/images/company_logo.png): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/install.php on line 225
+[15-Mar-2018 03:08:44 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php1eGLMQ' to 'custom/custom/themes/default/images/company_logo.png' in /home3/m3w0hhnr/public_html/install.php on line 225
+[15-Mar-2018 03:08:52 America/Chicago] PHP Warning:  move_uploaded_file(custom/custom/themes/default/images/company_logo.png): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/install.php on line 225
+[15-Mar-2018 03:08:52 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpsddyXH' to 'custom/custom/themes/default/images/company_logo.png' in /home3/m3w0hhnr/public_html/install.php on line 225
+[15-Mar-2018 03:09:15 America/Chicago] PHP Warning:  move_uploaded_file(custom/custom/themes/default/images/company_logo.png): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/install.php on line 225
+[15-Mar-2018 03:09:15 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpFD714Y' to 'custom/custom/themes/default/images/company_logo.png' in /home3/m3w0hhnr/public_html/install.php on line 225
+[15-Mar-2018 03:10:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/m3w0hhnr/public_html/install/performSetup.php:148) in /home3/m3w0hhnr/public_html/modules/Users/Save.php on line 510
+[15-Mar-2018 03:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 03:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 03:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 03:55:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php on line 443
+[15-Mar-2018 04:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 04:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 04:20:43 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php on line 797
+[15-Mar-2018 04:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 04:46:53 America/Chicago] PHP Notice:  Undefined index: Todo in /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php on line 697
+[15-Mar-2018 04:46:53 America/Chicago] PHP Notice:  Undefined index: Todo in /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php on line 698
+[15-Mar-2018 04:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 05:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 05:10:59 America/Chicago] PHP Notice:  Undefined index: Todo in /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php on line 697
+[15-Mar-2018 05:10:59 America/Chicago] PHP Notice:  Undefined index: Todo in /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php on line 698
+[15-Mar-2018 05:12:47 America/Chicago] PHP Notice:  Undefined index: Todo in /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php on line 697
+[15-Mar-2018 05:12:47 America/Chicago] PHP Notice:  Undefined index: Todo in /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php on line 698
+[15-Mar-2018 05:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_base has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 321
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_fault has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 1455
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_xmlschema has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 1744
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; soapval has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 2924
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; soap_transport_http has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 3227
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_server has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 4733
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; wsdl has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 6069
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_parser has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 8205
+[15-Mar-2018 05:30:29 America/Chicago] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; nusoap_client has a deprecated constructor in /home3/m3w0hhnr/public_html/include/nusoap/nusoap.php on line 9057
+[15-Mar-2018 05:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 05:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 06:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 06:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 06:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 06:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 07:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 07:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 07:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 07:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 08:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 08:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 08:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 08:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 09:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 09:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 09:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 09:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 10:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 10:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 10:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 10:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 11:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 11:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 11:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 11:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 12:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 12:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 12:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 12:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 13:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 13:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 13:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 13:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 14:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 14:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 14:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 14:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 15:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 15:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 15:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 15:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 16:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 16:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 16:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 16:42:47 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/m3w0hhnr/public_html/modules/Leads/metadata/convertdefs.php on line 357
+[15-Mar-2018 16:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 17:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 17:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 17:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 17:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 18:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 18:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 18:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 18:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 19:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 19:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 19:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 19:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 20:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 20:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 20:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 20:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 21:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 21:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 21:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 21:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 22:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 22:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 22:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 22:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 23:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 23:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 23:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[15-Mar-2018 23:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 00:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 00:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 00:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 00:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 01:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 01:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 01:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 01:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 02:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 02:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 02:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 02:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 03:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 03:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 03:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 03:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 04:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 04:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 04:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 04:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 05:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 05:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 05:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 05:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 06:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 06:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 06:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 06:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 07:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 07:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 07:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 07:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 08:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 08:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 08:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 08:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 09:00:03 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 09:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 09:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 09:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 10:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 10:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 10:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 10:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 11:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 11:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 11:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 11:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 12:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 12:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 12:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 12:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 13:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 13:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 13:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 13:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 14:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 14:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 14:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 14:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 15:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 15:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 15:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 15:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 16:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 16:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 16:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 16:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 17:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 17:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 17:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 17:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 18:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 18:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 18:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 18:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 19:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 19:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 19:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 19:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 20:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 20:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 20:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 20:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 21:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 21:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 21:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 21:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 22:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 22:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 22:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 22:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 23:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 23:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 23:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[16-Mar-2018 23:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 00:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 00:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 00:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 00:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 01:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 01:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 01:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 01:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 02:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 02:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 02:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 02:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 03:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 03:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 03:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 03:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 04:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 04:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 04:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 04:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 05:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 05:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 05:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 05:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 06:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 06:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 06:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 06:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 07:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 07:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 07:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 07:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 08:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 08:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 08:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 08:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 09:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 09:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 09:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 09:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 10:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 10:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 10:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 10:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 11:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 11:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 11:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 11:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 12:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 12:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 12:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 12:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 13:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 13:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 13:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 13:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 14:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 14:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 14:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 14:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 15:00:03 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 15:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 15:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 15:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 16:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 16:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 16:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 16:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 17:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 17:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 17:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 17:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 18:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 18:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 18:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 18:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 19:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 19:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 19:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 19:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 20:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 20:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 20:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 20:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 21:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 21:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 21:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 21:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 22:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 22:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 22:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 22:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 23:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 23:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 23:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[17-Mar-2018 23:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 00:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 00:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 00:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 00:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 01:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 01:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 01:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 01:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 02:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 02:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 02:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 02:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 03:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 03:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 03:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 03:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 04:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 04:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 04:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 04:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 05:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 05:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 05:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 05:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 06:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 06:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 06:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 06:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 07:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 07:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 07:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 07:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 08:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 08:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 08:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 08:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 09:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 09:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 09:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 09:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 10:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 10:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 10:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 10:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 11:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 11:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 11:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 11:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 12:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 12:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 12:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 12:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 13:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 13:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 13:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 13:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 14:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 14:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 14:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 14:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 15:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 15:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 15:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 15:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 16:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 16:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 16:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 16:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 17:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 17:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 17:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 17:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 18:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 18:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 18:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 18:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 19:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 19:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 19:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 19:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 20:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 20:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 20:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 20:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 21:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 21:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 21:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 21:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 22:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 22:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 22:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 22:54:03 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 23:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 23:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 23:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[18-Mar-2018 23:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 00:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 00:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 00:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 00:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 01:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 01:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 01:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 01:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 02:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 02:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 02:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 02:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 03:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 03:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 03:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 03:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 04:00:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 04:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 04:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 04:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 05:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 05:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 05:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 05:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 06:00:03 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 06:18:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 06:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 06:54:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 07:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 07:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 07:36:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 07:54:01 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 08:00:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 08:18:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
+[19-Mar-2018 08:36:02 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'cron.php is CLI only.' in /home3/m3w0hhnr/public_html/include/utils.php:1773
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/cron.php(49): sugar_die('cron.php is CLI...')
+#1 {main}
+  thrown in /home3/m3w0hhnr/public_html/include/utils.php on line 1773
