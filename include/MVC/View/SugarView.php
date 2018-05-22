@@ -696,7 +696,7 @@ class SugarView
             $ss->assign("moduleTopMenu", $groupTabs[$app_strings['LBL_TABGROUP_ALL']]['modules']);
             $ss->assign("moduleExtraMenu", $groupTabs[$app_strings['LBL_TABGROUP_ALL']]['extra']);
             // This is for remove the All option in menu
-            unset($groupTabs['Todo']);
+            //unset($groupTabs['Todo']);
             $ss->assign("groupTabs", $groupTabs);
         }
 

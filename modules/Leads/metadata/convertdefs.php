@@ -101,6 +101,7 @@ $viewdefs['Contacts']['ConvertLead'] = array(
         )
     ),
 );
+
 $viewdefs['Accounts']['ConvertLead'] = array(
     'copyData' => true,
     'required' => true,
@@ -354,4 +355,3 @@ $viewdefs['Tasks']['ConvertLead'] = array(
         )
     ),
 );
-var_dump($viewdefs['Contacts']['ConvertLead']);

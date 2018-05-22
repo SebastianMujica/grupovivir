@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GrupoVivir </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+  <link href="https://unpkg.com/vuetify/dist/vuetify.min.css" rel="stylesheet">
+</head>
+<body>
+ <div id="app">
+   <v-app light>
+    <v-toolbar class="white">
+      <v-toolbar-title ><img src="assets/logo.png" height="50px"></v-toolbar-title>
+    </v-toolbar>
+    <v-content>
+      <section>
+        <v-parallax src="assets/fondo.jpg" height="900">
+          <v-layout
+            column
+            align-center
+            justify-center
+            class="white--text"
+          >
+            <h1 class="white--text mb-2 display-1 text-xs-center">Formulario de Reclamos</h1>
+            <br>
+            <v-card width="50%">
+                
+            <v-container>
+              <v-form v-model="valid">
+                <v-text-field
+                label="Nombre del Cliente"
+                v-model="name"
+                :rules="nameRules"
+                required
+                ></v-text-field>
+                <v-text-field
+                label="Proyecto"
+                v-model="proyecto"
+                required
+                ></v-text-field>
+                <v-text-field
+                label="Unidad de Proyecto"
+                v-model="unidadproyecto"
+                required
+                ></v-text-field> 
+                <v-text-field
+                label="Tipo Reclamo"
+                v-model="tiporeclamo"
+                required
+                ></v-text-field>  
+                <v-text-field
+                label="Descripcion"
+                v-model="descripcion"
+                required
+                multi-line='true'
+                ></v-text-field>
+              </v-form>
+            </v-container>
+            <v-card-actions>
+              <v-btn block flat color='blue'>Enviar</v-btn>
+            </v-card-actions>
+          </v-card>
+          </v-layout>
+        </v-parallax>
+      </section>
+      <v-footer class="blue darken-2">
+        <v-layout row wrap align-center>
+          <v-flex xs12>
+            <div class="white--text ml-3">
+              Hecho por Byprosys C.A derechos reservados 2018
+            </div>
+          </v-flex>
+        </v-layout>
+      </v-footer>
+    </v-content>
+  </v-app>
+ </div>
+ <script src="https://unpkg.com/vue/dist/vue.js"></script>
+ <script src="https://unpkg.com/vuetify/dist/vuetify.js"></script>
+ <script>
+   new Vue({
+    el: '#app',
+    data () {
+      return {
+        title: 'Your Logo'
+      }
+    }
+  })
+ </script>
+</body>
+</html>

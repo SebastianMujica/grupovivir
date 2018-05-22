@@ -113,35 +113,35 @@ studiotabs.reset();
                 {/if}
                 {* END SUGARCRM flav=pro ONLY *}
                 <button class="suitepicon suitepicon-action-edit" style="cursor: pointer;"
-				onclick="var value_label = document.getElementById('subslot{$modCounter}label').innerHTML.replace(/^\s+|\s+$/g,''); 
-				    {if !($view|substr:-6 == "search") }
-					var value_width = document.getElementById('subslot{$modCounter}width').innerHTML;
-					{/if}
-					ModuleBuilder.getContent('module=ModuleBuilder&action=editProperty&view_module={$view_module|escape:'url'}'+
-							'{if isset($subpanel)}&subpanel={$subpanel|escape:'url'}{/if}'+
-							'{if $MB}&MB={$MB|escape:'url'}&view_package={$view_package|escape:'url'}{/if}'+
-							'&id_label=subslot{$modCounter}label'+
-							'&name_label=label_'+
-							  '{if isset($value.label)}{$value.label|escape:'url'}'+
-							  '{elseif !empty($value.vname)}{$value.vname|escape:'url'}'+
-							  '{else}{$key|escape:'url'}{/if}'+
-							'&title_label={$MOD.LBL_LABEL_TITLE}&value_label=' + encodeURIComponent(value_label)
-							{if ($view|substr:-6 != "search") }
-							+ '&id_width=subslot{$modCounter}width&name_width={$MOD.LBL_WIDTH|escape:'url'}&value_width=' + encodeURIComponent(value_width)
-							{/if}
-					);"
-				>
+                onclick="var value_label = document.getElementById('subslot{$modCounter}label').innerHTML.replace(/^\s+|\s+$/g,''); 
+                    {if !($view|substr:-6 == "search") }
+                    var value_width = document.getElementById('subslot{$modCounter}width').innerHTML;
+                    {/if}
+                    ModuleBuilder.getContent('module=ModuleBuilder&action=editProperty&view_module={$view_module|escape:'url'}'+
+                            '{if isset($subpanel)}&subpanel={$subpanel|escape:'url'}{/if}'+
+                            '{if $MB}&MB={$MB|escape:'url'}&view_package={$view_package|escape:'url'}{/if}'+
+                            '&id_label=subslot{$modCounter}label'+
+                            '&name_label=label_'+
+                              '{if isset($value.label)}{$value.label|escape:'url'}'+
+                              '{elseif !empty($value.vname)}{$value.vname|escape:'url'}'+
+                              '{else}{$key|escape:'url'}{/if}'+
+                            '&title_label={$MOD.LBL_LABEL_TITLE}&value_label=' + encodeURIComponent(value_label)
+                            {if ($view|substr:-6 != "search") }
+                            + '&id_width=subslot{$modCounter}width&name_width={$MOD.LBL_WIDTH|escape:'url'}&value_width=' + encodeURIComponent(value_width)
+                            {/if}
+                    );return false;"
+                >
             </td>
             </tr>
             <tr class='fieldValue'>
                 {if empty($hideKeys)}<td>[{$key}]</td>{/if}
                 <td align="right" colspan="2" class="percentage">
-					{if $view|substr:-6 == "search" }
-					<span style="display:none" id='subslot{$modCounter}width'>{$value.width}</span>	<span style="display:none">%</span>
-					{else}
-					<span id='subslot{$modCounter}width'>{$value.width}</span> <span>%</span>
-					{/if}
-				</td>
+                    {if $view|substr:-6 == "search" }
+                    <span style="display:none" id='subslot{$modCounter}width'>{$value.width}</span> <span style="display:none">%</span>
+                    {else}
+                    <span id='subslot{$modCounter}width'>{$value.width}</span> <span>%</span>
+                    {/if}
+                </td>
         </tr>
     </table>
 </li>
@@ -185,8 +185,8 @@ function dragDropInit(){
 };
 
 resizeDDLists = function() {
-	var Dom = YAHOO.util.Dom;
-	if (!Dom.get('ul0'))
+    var Dom = YAHOO.util.Dom;
+    if (!Dom.get('ul0'))
             return;
     var body = document.getElementById('mbtabs');
     for(var msi = 0; msi < studiotabs.slotCount ; msi++){
@@ -196,21 +196,21 @@ resizeDDLists = function() {
         }
 
         if (targetHeight > 0 )
-        	Dom.setStyle("ul" + msi, "height", targetHeight + "px");
+            Dom.setStyle("ul" + msi, "height", targetHeight + "px");
     }
-	Studio2.scrollZones = {}
-	for (var i = 0; Dom.get("ul" + i); i++){
-		Studio2.scrollZones["ul" + i] = Studio2.getScrollZones("ul" + i);
-	}
+    Studio2.scrollZones = {}
+    for (var i = 0; Dom.get("ul" + i); i++){
+        Studio2.scrollZones["ul" + i] = Studio2.getScrollZones("ul" + i);
+    }
 };
 
 function countListFields() {
-	var count = 0;
-	var divs = document.getElementById( 'ul0' ).getElementsByTagName( 'li' ) ;		
-	for ( var j=0;j<divs.length;j++) {
-		if (divs[j].className == 'draggable') count++;
-	}
-	return count;
+    var count = 0;
+    var divs = document.getElementById( 'ul0' ).getElementsByTagName( 'li' ) ;      
+    for ( var j=0;j<divs.length;j++) {
+        if (divs[j].className == 'draggable') count++;
+    }
+    return count;
 };
 
 {/literal}
@@ -233,5 +233,4 @@ ModuleBuilder.MBpackage = '{$view_package}';
 {$additionalFormData}
 
 </form>
-
 

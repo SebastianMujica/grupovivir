@@ -186,7 +186,7 @@ $mod_strings = array(
     'LNK_NEW_CASE' => 'Nuevo Caso',
     'LNK_NEW_CALL' => 'Registrar Llamada',
     'LNK_NEW_MEETING' => 'Programar Reunión',
-    'LNK_NEW_OPPORTUNITY' => 'Nueva Oportunidad',
+    'LNK_NEW_OPPORTUNITY' => 'Nuevo Cliente Potencial',
     'LNK_SELECT_ACCOUNTS' => '<b>O</b> Seleccione una Cuenta',
     'LNK_SELECT_CONTACTS' => ' <b>O</b> Selecciona Contacto',
     'NTC_DELETE_CONFIRMATION' => '¿Está seguro de que desea eliminar este registro?',
@@ -234,4 +234,3 @@ $mod_strings = array(
     'LBL_FP_EVENTS_LEADS_1_FROM_FP_EVENTS_TITLE' => 'Eventos',
     'LBL_WWW' => 'WWW',
 );
-
