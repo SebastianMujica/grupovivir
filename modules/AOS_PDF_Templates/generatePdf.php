@@ -37,11 +37,10 @@
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
-
 if (!isset($_REQUEST['uid']) || empty($_REQUEST['uid']) || !isset($_REQUEST['templateID']) || empty($_REQUEST['templateID'])) {
     die('Error retrieving record. This record may be deleted or you may not be authorized to view it.');
 }
-error_reporting(0);
+error_reporting(-1);
 require_once('modules/AOS_PDF_Templates/PDF_Lib/mpdf.php');
 require_once('modules/AOS_PDF_Templates/templateParser.php');
 require_once('modules/AOS_PDF_Templates/sendEmail.php');
@@ -50,6 +49,10 @@ require_once('modules/AOS_PDF_Templates/AOS_PDF_Templates.php');
 global $mod_strings, $sugar_config;
 
 $bean = BeanFactory::getBean($_REQUEST['module'], $_REQUEST['uid']);
+
+
+//$GLOBALS['log']->error(print_r($bean,true));
+
 
 if(!$bean){
     sugar_die("Invalid Record");
@@ -74,7 +77,6 @@ $template->retrieve($_REQUEST['templateID']);
 
 $object_arr = array();
 $object_arr[$bean->module_dir] = $bean->id;
-
 //backward compatibility
 $object_arr['Accounts'] = $bean->billing_account_id;
 $object_arr['Contacts'] = $bean->billing_contact_id;
@@ -126,10 +128,61 @@ $text = str_replace("\$subtotal_amount", "\$" . $variableName . "_subtotal_amoun
 $text = str_replace("\$tax_amount", "\$" . $variableName . "_tax_amount", $text);
 $text = str_replace("\$shipping_amount", "\$" . $variableName . "_shipping_amount", $text);
 $text = str_replace("\$total_amount", "\$" . $variableName . "_total_amount", $text);
-
 $text = populate_group_lines($text, $lineItemsGroups, $lineItems);
 
+
+if ($_REQUEST['module']=='Reser_Reservas'){
+    global $app_list_strings;$list = array();
+
+    if (isset($app_list_strings['LIST_NAME']))
+    {
+        $list = $app_list_strings['LIST_NAME'];
+    }
+    //$GLOBALS['log']->error($text);
+    $bean->load_relationship('opportunities_reser_reservas_1');
+    $bean->load_relationship('reser_reservas_contacts_1');
+    $bean->load_relationship('reser_reservas_aos_product_categories_1');
+    $bean->load_relationship('aos_products_reser_reservas_1');
+
+    $contacto = array_values($bean->reser_reservas_contacts_1->getBeans())[0];
+    
+    $proyecto = array_values($bean->reser_reservas_aos_product_categories_1->getBeans())[0];
+
+    $unidad = array_values($bean->aos_products_reser_reservas_1->getBeans())[0];
+    
+    //var_dump($unidad);
+
+    //exit('<br>');
+    //$GLOBALS['log']->error(print_r($bean->reser_reservas_aos_categories_1,true));
+    
+    $text = str_replace('$reser_reservas_contacts_1_name_name',$contacto->first_name.' '.$contacto->last_name, $text);
+    $text = str_replace('$reser_reservas_contacts_1_name_jjwg_maps_address_c',$contacto->jjwg_maps_address_c, $text);
+    $text = str_replace('$reser_reservas_contacts_1_name_phone_work',$contacto->phone_work, $text);
+    $text = str_replace('$reser_reservas_contacts_1_name_phone_other',$contacto->phone_other, $text);
+    $text = str_replace('$reser_reservas_contacts_1_name_identificacion_c',$contacto->identificacion_c, $text);
+    $text = str_replace('$assigned_user_name_full_name',$contacto->assigned_user_name, $text);
+    //echo "<pre>";
+    //var_dump($contacto->assigned_user_name);
+    //echo "</pre>";
+    //exit('<br>');
+    $text = str_replace('$reser_reservas_aos_product_categories_1_name_name',$proyecto->name, $text);
+    $text = str_replace('$reser_reservas_aos_product_categories_1_name_direccion_c',$proyecto->direccion_c, $text);
+
+    $text = str_replace('$reser_reservas_aos_product_categories_1_name_corregimiento_c',$app_list_strings['corregimiento_list']["$proyecto->corregimiento_c"], $text);
+    $text = str_replace('$reser_reservas_aos_product_categories_1_name_distrito_c',$app_list_strings['distrito_list']["$proyecto->distrito_c"], $text);
+
+    $text = str_replace('$reser_reservas_aos_product_categories_1_name_ciudad_c',$app_list_strings['ciudad_list']["$proyecto->ciudad_c"], $text);
+    $text = str_replace('$reser_reservas_aos_product_categories_1_name_numero_de_finca_c',$proyecto->numero_de_finca_c, $text);
+    $text = str_replace('$aos_products_reser_reservas_1_name_name',$unidad->name, $text);
+    $text = str_replace('$aos_products_reser_reservas_1_name_metraje_c',$unidad->metraje_c, $text);
+    $text = str_replace('$aos_products_reser_reservas_1_name_price',$unidad->price, $text);
+    //$text = str_replace('$assigned_user_name_full_name',$contacto->assigned_user_name_full_name, $text);
+    
+    //$GLOBALS['log']->error(print_r($bean->opportunities_reser_reservas_1,true));
+}
+
 $converted = templateParser::parse_template($text, $object_arr);
+
 $header = templateParser::parse_template($header, $object_arr);
 $footer = templateParser::parse_template($footer, $object_arr);
 

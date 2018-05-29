@@ -34,14 +34,16 @@ class templateParser
             $focus = BeanFactory::getBean($bean_name, $bean_id);
             $string = templateParser::parse_template_bean($string, $focus->table_name, $focus);
 
+
             foreach ($focus->field_defs as $focus_name => $focus_arr) {
                 if ($focus_arr['type'] == 'relate') {
                     if (isset($focus_arr['module']) && $focus_arr['module'] != '' && $focus_arr['module'] != 'EmailAddress') {
 
                         $idName = $focus_arr['id_name'];
                         $relate_focus = BeanFactory::getBean($focus_arr['module'], $focus->$idName);
-
                         $string = templateParser::parse_template_bean($string, $focus_arr['name'], $relate_focus);
+
+
                     }
                 }
             }
@@ -56,6 +58,8 @@ class templateParser
         $repl_arr = array();
 
         foreach ($focus->field_defs as $field_def) {
+
+
             if (isset($field_def['name']) && $field_def['name'] != '') {
                 $fieldName = $field_def['name'];
                 if ($field_def['type'] == 'currency') {
@@ -72,6 +76,7 @@ class templateParser
                 } //Fix for Windows Server as it needed to be converted to a string.
                 else if ($field_def['type'] == 'int') {
                     $repl_arr[$key . "_" . $fieldName] = strval($focus->$fieldName);
+                    //$GLOBALS['log']->error($focus->$fieldName);
                 } else if ($field_def['type'] == 'image') {
                     $secureLink = $sugar_config['site_url'] . '/' . "public/". $focus->id .  '_' . $fieldName;
                     $file_location = $sugar_config['upload_dir'] . '/'  . $focus->id .  '_' . $fieldName;
