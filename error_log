@@ -1,27 +1,8 @@
-[28-May-2018 08:37:47 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'diasTranscurridos' not found in /home3/m3w0hhnr/public_html/include/utils/LogicHook.php:260
-Stack trace:
-#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'after_retrieve', Array)
-#1 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('trami_Tramites', 'after_retrieve', Array)
-#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(4607): SugarBean->call_custom_logic('after_retrieve', Array)
-#3 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/file/File.php(144): SugarBean->retrieve('acecd2ec-cc4f-6...', true, true)
-#4 /home3/m3w0hhnr/public_html/include/MassUpdate.php(256): File->retrieve('acecd2ec-cc4f-6...')
-#5 /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php(780): MassUpdate->handleMassUpdate()
-#6 /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php(523): SugarController->action_massupdate()
-#7 /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php in /home3/m3w0hhnr/public_html/include/utils/LogicHook.php on line 260
-[28-May-2018 08:38:02 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'diasTranscurridos' not found in /home3/m3w0hhnr/public_html/include/utils/LogicHook.php:260
-Stack trace:
-#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'after_retrieve', Array)
-#1 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('trami_Tramites', 'after_retrieve', Array)
-#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(4607): SugarBean->call_custom_logic('after_retrieve', Array)
-#3 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/file/File.php(144): SugarBean->retrieve('acecd2ec-cc4f-6...', true, true)
-#4 /home3/m3w0hhnr/public_html/include/MassUpdate.php(256): File->retrieve('acecd2ec-cc4f-6...')
-#5 /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php(780): MassUpdate->handleMassUpdate()
-#6 /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php(523): SugarController->action_massupdate()
-#7 /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php in /home3/m3w0hhnr/public_html/include/utils/LogicHook.php on line 260
-[28-May-2018 09:08:49 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home3/m3w0hhnr/public_html/custom/modules/trami_Tramites/metadata/listviewdefs.php on line 56
-[28-May-2018 09:09:24 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home3/m3w0hhnr/public_html/custom/modules/trami_Tramites/metadata/listviewdefs.php on line 55
-[28-May-2018 09:09:31 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home3/m3w0hhnr/public_html/custom/modules/trami_Tramites/metadata/listviewdefs.php on line 55
-[28-May-2018 09:10:14 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home3/m3w0hhnr/public_html/custom/modules/trami_Tramites/metadata/listviewdefs.php on line 55
-[28-May-2018 09:10:43 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home3/m3w0hhnr/public_html/custom/modules/trami_Tramites/metadata/listviewdefs.php on line 55
-[28-May-2018 09:13:27 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /home3/m3w0hhnr/public_html/custom/modules/trami_Tramites/metadata/listviewdefs.php on line 55
-[28-May-2018 09:14:10 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/m3w0hhnr/public_html/custom/modules/trami_Tramites/metadata/listviewdefs.php on line 55
+[06-Jun-2018 08:06:26 America/Chicago] PHP Warning:  require_once(custom/modules/Leads/ValidarEmail.php): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
+[06-Jun-2018 08:06:26 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'custom/modules/Leads/ValidarEmail.php' (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php') in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
+[06-Jun-2018 08:08:17 America/Chicago] PHP Warning:  require_once(custom/modules/Leads/ValidarEmail.php): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
+[06-Jun-2018 08:08:17 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'custom/modules/Leads/ValidarEmail.php' (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php') in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
+[06-Jun-2018 08:09:46 America/Chicago] PHP Warning:  require_once(custom/modules/Leads/ValidarEmail.php): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
+[06-Jun-2018 08:09:46 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'custom/modules/Leads/ValidarEmail.php' (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php') in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
+[06-Jun-2018 08:12:10 America/Chicago] PHP Warning:  require_once(custom/modules/Leads/ValidarEmail.php): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
+[06-Jun-2018 08:12:10 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'custom/modules/Leads/ValidarEmail.php' (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php') in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
