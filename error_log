@@ -6,3 +6,158 @@
 [06-Jun-2018 08:09:46 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'custom/modules/Leads/ValidarEmail.php' (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php') in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
 [06-Jun-2018 08:12:10 America/Chicago] PHP Warning:  require_once(custom/modules/Leads/ValidarEmail.php): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
 [06-Jun-2018 08:12:10 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'custom/modules/Leads/ValidarEmail.php' (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php') in /home3/m3w0hhnr/public_html/include/MVC/Controller/SugarController.php on line 1014
+[06-Jun-2018 08:39:56 America/Chicago] PHP Warning:  Division by zero in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 9
+[06-Jun-2018 08:39:56 America/Chicago] PHP Warning:  Division by zero in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 9
+[06-Jun-2018 08:39:56 America/Chicago] PHP Warning:  include_once(NANphp’): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 9
+[06-Jun-2018 08:39:56 America/Chicago] PHP Warning:  include_once(): Failed opening 'NANphp’' for inclusion (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php:modules/AOD_Index/Lib') in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 9
+[06-Jun-2018 08:39:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getUserRoleNames() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:10
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'after_save', '')
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'after_save', '')
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'after_save', '')
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2434): SugarBean->call_custom_logic('after_save', '')
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home3/m3w0hhnr/public_html in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:16 America/Chicago] PHP Warning:  Division by zero in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:16 America/Chicago] PHP Warning:  Division by zero in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:16 America/Chicago] PHP Warning:  include_once(NANphp’): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:16 America/Chicago] PHP Warning:  include_once(): Failed opening 'NANphp’' for inclusion (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php:modules/AOD_Index/Lib') in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getUserRoleNames() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:11
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home3/m3w0 in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 11
+[06-Jun-2018 08:47:23 America/Chicago] PHP Warning:  Division by zero in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:23 America/Chicago] PHP Warning:  Division by zero in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:23 America/Chicago] PHP Warning:  include_once(NANphp’): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:23 America/Chicago] PHP Warning:  include_once(): Failed opening 'NANphp’' for inclusion (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php:modules/AOD_Index/Lib') in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 10
+[06-Jun-2018 08:47:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getUserRoleNames() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:11
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home3/m3w0 in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 11
+[06-Jun-2018 08:48:40 America/Chicago] PHP Warning:  Division by zero in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 11
+[06-Jun-2018 08:48:40 America/Chicago] PHP Warning:  Division by zero in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 11
+[06-Jun-2018 08:48:40 America/Chicago] PHP Warning:  include_once(NANphp’): failed to open stream: No such file or directory in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 11
+[06-Jun-2018 08:48:40 America/Chicago] PHP Warning:  include_once(): Failed opening 'NANphp’' for inclusion (include_path='/home3/m3w0hhnr/public_html:/home3/m3w0hhnr/public_html/include/HTMLPurifier/standalone:/home3/m3w0hhnr/public_html/include/..:.:/opt/php70/lib/php:modules/AOD_Index/Lib') in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 11
+[06-Jun-2018 08:48:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getUserRoleNames() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:12
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home3/m3w0 in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 12
+[06-Jun-2018 09:00:14 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 11
+[06-Jun-2018 09:00:23 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 11
+[06-Jun-2018 09:07:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Link2::load_relationship() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:13
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:09:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Link2::load_relationship() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:14
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 14
+[06-Jun-2018 09:10:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Link2::load_relationship() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:15
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 15
+[06-Jun-2018 09:30:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getUserRoleNames() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:12
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home3/m3w0 in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 12
+[06-Jun-2018 09:32:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getUserRoles() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:12
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home3/m3w0hhnr in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 12
+[06-Jun-2018 09:34:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getUserRoleNames() in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php:13
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(262): AsignarVendedor->asignarAleatoreamente(Object(Lead), 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#3 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#4 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#7 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#8 /home3/m3w0 in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:35:43 America/Chicago] PHP Deprecated:  Non-static method ACLRole::getUserRoleNames() should not be called statically in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:50:27 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:50:56 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:51:06 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:52:00 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:52:05 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:52:20 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:53:28 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 09:55:40 America/Chicago] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 13
+[06-Jun-2018 10:00:11 America/Chicago] PHP Notice:  Undefined variable: ret in /home3/m3w0hhnr/public_html/include/SugarPHPMailer.php on line 492
+[06-Jun-2018 10:05:02 America/Chicago] PHP Deprecated:  Non-static method ACLRole::getUserRoleNames() should not be called statically in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 15
+[06-Jun-2018 10:18:54 America/Chicago] PHP Deprecated:  Non-static method ACLRole::getUserRoleNames() should not be called statically in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 15
+[06-Jun-2018 10:37:01 America/Chicago] PHP Deprecated:  Non-static method ACLRole::getUserRoleNames() should not be called statically in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 15
+[06-Jun-2018 10:48:37 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'AsignarVendedor' not found in /home3/m3w0hhnr/public_html/include/utils/LogicHook.php:260
+Stack trace:
+#0 /home3/m3w0hhnr/public_html/include/utils/LogicHook.php(199): LogicHook->process_hooks(Array, 'before_save', Array)
+#1 /home3/m3w0hhnr/public_html/data/SugarBean.php(3118): LogicHook->call_custom_logic('Leads', 'before_save', Array)
+#2 /home3/m3w0hhnr/public_html/data/SugarBean.php(2380): SugarBean->call_custom_logic('before_save', Array)
+#3 /home3/m3w0hhnr/public_html/include/SugarObjects/templates/person/Person.php(191): SugarBean->save(false)
+#4 /home3/m3w0hhnr/public_html/modules/Leads/Lead.php(561): Person->save(false)
+#5 /home3/m3w0hhnr/public_html/modules/Leads/LeadFormBase.php(339): Lead->save(false)
+#6 /home3/m3w0hhnr/public_html/modules/Leads/Save.php(50): LeadFormBase->handleSave('', true, false)
+#7 /home3/m3w0hhnr/public_html/include/MVC/View/SugarView.php(781): include_once('/home3/m3w0hhnr...')
+#8 /home3/m3w0hhnr/public_html/include/MVC/View/views/view.classic.php(74): in /home3/m3w0hhnr/public_html/include/utils/LogicHook.php on line 260
+[06-Jun-2018 21:08:47 America/Chicago] PHP Deprecated:  Non-static method ACLRole::getUserRoleNames() should not be called statically in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 15
+[06-Jun-2018 21:09:51 America/Chicago] PHP Deprecated:  Non-static method ACLRole::getUserRoleNames() should not be called statically in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 15
+[06-Jun-2018 21:11:31 America/Chicago] PHP Deprecated:  Non-static method ACLRole::getUserRoleNames() should not be called statically in /home3/m3w0hhnr/public_html/custom/modules/Leads/AsignarVendedor.php on line 15
